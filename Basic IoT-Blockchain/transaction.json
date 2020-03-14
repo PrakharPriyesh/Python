@@ -1,0 +1,284 @@
+{
+    "sender" : "",
+    "receiver" : "",
+    "amount" : 
+}
+
+
+{
+  "sensors": [
+    {
+      "type": "Gas",
+      "name": "CO2",
+      "value": 2
+    }
+  ],
+  "factoryID": "1234",
+  "factoryName": "ABCD",
+  "timestamp": 26
+}
+
+{
+  "sensors": [
+    {
+      "type": "Gas",
+      "name": "CO2",
+      "value": 2
+    },
+    {
+      "type": "Noise",
+      "name": "",
+      "value": 5
+    }
+  ],
+  "factoryID": "1234",
+  "factoryName": "ABCD",
+  "timestamp": 1552139861
+}
+
+
+{
+    "chain": [
+        {
+            "index": 1,
+            "previous_hash": "0",
+            "proof": 1,
+            "timestamp": "2019-03-10 17:35:52.750237",
+            "transactions": []
+        },
+        {
+            "index": 2,
+            "previous_hash": "fea7ac533d74c6519becbab5581f27d7ac0317ab65abb46ecf5d26d51f47fe6c",
+            "proof": 20,
+            "timestamp": "2019-03-10 17:36:00.759660",
+            "transactions": []
+        },
+        {
+            "index": 3,
+            "previous_hash": "1a5d4686e6819b2d18d0aa723e1ff9018d370edd989f07721c0b28dbbc4fb0ce",
+            "proof": 7,
+            "timestamp": "2019-03-10 17:36:46.060369",
+            "transactions": [
+                {
+                    "factoryID": "1234",
+                    "factoryName": "ABCD",
+                    "sensors": [
+                        {
+                            "name": "CO2",
+                            "type": "Gas",
+                            "value": 1
+                        },
+                        {
+                            "name": "",
+                            "type": "Noise",
+                            "value": 2
+                        }
+                    ],
+                    "timestamp": 1552139861
+                }
+            ]
+        },
+        {
+            "index": 4,
+            "previous_hash": "33e21ce8504d83467d6a861ae0b0ddcb66e0a405aca6e9d74d822e2c1af03efe",
+            "proof": 10,
+            "timestamp": "2019-03-10 17:36:59.536885",
+            "transactions": [
+                {
+                    "factoryID": "1234",
+                    "factoryName": "ABCD",
+                    "sensors": [
+                        {
+                            "name": "CO2",
+                            "type": "Gas",
+                            "value": 3
+                        },
+                        {
+                            "name": "",
+                            "type": "Noise",
+                            "value": 4
+                        }
+                    ],
+                    "timestamp": 1552139961
+                }
+            ]
+        },
+        {
+            "index": 5,
+            "previous_hash": "15a2d447b1f017974481aab8e93f7c30e2572fa69573cb236dc91c68aaabc1f9",
+            "proof": 15,
+            "timestamp": "2019-03-10 19:36:15.179848",
+            "transactions": [
+                {
+                    "factoryID": "1234",
+                    "factoryName": "ABCD",
+                    "sensors": [
+                        {
+                            "name": "CO2",
+                            "type": "Gas",
+                            "value": 5
+                        },
+                        {
+                            "name": "",
+                            "type": "Noise",
+                            "value": 6
+                        }
+                    ],
+                    "timestamp": 1552219961
+                }
+            ]
+        },
+        {
+            "index": 6,
+            "previous_hash": "1f5edda7277e78e5b752ece5e06847c0925fb067828cd7c8b465116852e9057b",
+            "proof": 21,
+            "timestamp": "2019-03-10 19:38:11.838185",
+            "transactions": [
+                {
+                    "factoryID": "1234",
+                    "factoryName": "ABCD",
+                    "sensors": [
+                        {
+                            "name": "CO2",
+                            "type": "Gas",
+                            "value": 7
+                        },
+                        {
+                            "name": "",
+                            "type": "Noise",
+                            "value": 8
+                        }
+                    ],
+                    "timestamp": 1552219961
+                },
+                {
+                    "factoryID": "1234",
+                    "factoryName": "ABCD",
+                    "sensors": [
+                        {
+                            "name": "CO2",
+                            "type": "Gas",
+                            "value": 9
+                        },
+                        {
+                            "name": "",
+                            "type": "Noise",
+                            "value": 10
+                        }
+                    ],
+                    "timestamp": 1553214961
+                },
+                {
+                    "factoryID": "1234",
+                    "factoryName": "ABCD",
+                    "sensors": [
+                        {
+                            "name": "CO2",
+                            "type": "Gas",
+                            "value": 9
+                        },
+                        {
+                            "name": "Noise",
+                            "type": "Noise",
+                            "value": 10
+                        }
+                    ],
+                    "timestamp": 1553314961
+                }
+            ]
+        },
+        {
+            "index": 7,
+            "previous_hash": "6c0b0082455609b1e47588608a39e7d721c0f27a10afe0253ff615255c93dcba",
+            "proof": 4,
+            "timestamp": "2019-03-11 00:46:52.722192",
+            "transactions": [
+                {
+                    "factoryID": "1234",
+                    "factoryName": "ABCD",
+                    "sensors": [
+                        {
+                            "name": "CO2",
+                            "type": "Gas",
+                            "value": 11
+                        },
+                        {
+                            "name": "Noise",
+                            "type": "Noise",
+                            "value": 12
+                        }
+                    ],
+                    "timestamp": 1553614961
+                },
+                {
+                    "factoryID": "1234",
+                    "factoryName": "ABCD",
+                    "sensors": [
+                        {
+                            "name": "CO2",
+                            "type": "Gas",
+                            "value": 12
+                        },
+                        {
+                            "name": "Noise",
+                            "type": "Noise",
+                            "value": 13
+                        }
+                    ],
+                    "timestamp": 1553814961
+                }
+            ]
+        },
+        {
+            "index": 8,
+            "previous_hash": "0da6fc8710da6543a89a55253ab565826b0180400c69a2cb55ebdd6b99a12a9c",
+            "proof": 21,
+            "timestamp": "2019-03-11 01:04:12.977530",
+            "transactions": [
+                {
+                    "factoryID": "1234",
+                    "factoryName": "ABCD",
+                    "sensors": [
+                        {
+                            "name": "CO2",
+                            "type": "Gas",
+                            "value": 15
+                        },
+                        {
+                            "name": "Noise",
+                            "type": "Noise",
+                            "value": 16
+                        }
+                    ],
+                    "timestamp": 1553934961
+                }
+            ]
+        },
+        {
+            "index": 9,
+            "previous_hash": "51492150ccf402b61d80df3cd3445c76c820781a0d181734eb86b9c21d2f2f30",
+            "proof": 4,
+            "timestamp": "2019-03-11 01:04:45.018512",
+            "transactions": [
+                {
+                    "factoryID": "1234",
+                    "factoryName": "ABCD",
+                    "sensors": [
+                        {
+                            "name": "CO2",
+                            "type": "Gas",
+                            "value": 17
+                        },
+                        {
+                            "name": "Noise",
+                            "type": "Noise",
+                            "value": 18
+                        }
+                    ],
+                    "timestamp": 1553974961
+                }
+            ]
+        }
+    ],
+    "length": 9
+}
